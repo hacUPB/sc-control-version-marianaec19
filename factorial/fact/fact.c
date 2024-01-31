@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
     /*It must be verified that the entered number is greater than or equal to zero*/
     if(number < 0)
     {
-        perror("El núnmero debe ser mayor a cero");
+        perror("El número debe ser mayor a cero");
         exit(1);
     }
     /*Implement the function that calculates the factorial of the input argument*/
